@@ -1,0 +1,327 @@
+import App from './App.svelte';
+
+const app = new App({
+	target: document.body,
+	props: {
+		prophecy_list: [
+			{
+				"text": "The fire is caged - The element is back under control.",
+				"place": "Cronnel Platforms"
+			},
+			{
+				"text": "A mighty hero chased the sea folk, Out of old structure.",
+				"place": "Ardos Monastery"
+			},
+			{
+				"text": "A lady of rust and evil escaped from the wasteland into astral.",
+				"place": "Antean Wasteland",
+				"note": "Kill Fury boss inside the fortress full of demons at coords G-7"
+			},
+			{
+				"text": "In peaceful water, a walking corpse was finally slain by a hero.",
+				"place": "Dankit Island"
+			},
+			{
+				"text": "In a secret place in the sky, an iron enemy was slain.",
+				"place": "Facility 902"
+			},
+			{
+				"text": "An executioner came to the crystal grotto and the grim weaver was slain.",
+				"place": "Milene caves",
+				"note": "Kill Deathweaver spider boss at coords L-15"
+			},
+			{
+				"text": "Where poison flows from the sand, a great lizard was slain.",
+				"place": "Terra",
+				"note": "Kill the Lizard boss Rakhos at coords W-12"
+			},
+			{
+				"text": "A terror appeared in the ruins, but astral was stopped.",
+				"place": "Artonis Hollow"
+			},
+			{
+				"text": "An ancient creature from ancient tales, met its end in ice and snow.",
+				"place": "Thorneus Camp"
+			},
+			{
+				"text": "Fear forced animals out of the caves, but the villain was slain.",
+				"place": "Kyros Cave"
+			},
+			{
+				"text": "An evil mage was slain in the dark waters, where black magic reigned.",
+				"place": "Okki Island"
+			},
+			{
+				"text": "In place filled with prayers, a traitor was killed in heated battle.",
+				"place": "Ignum Monastery"
+			},
+			{
+				"text": "In the snow covered hills, a mad mage found an end.",
+				"place": "Icy Winds Canyon"
+			},
+			{
+				"text": "The terror from depths was defeated, left to die on sunny beach.",
+				"place": "Naori Island",
+				"note": "Kill boss Krynos at C-9"
+			},
+			{
+				"text": "Flesh and metal fused together, but it did not save them.",
+				"place": "Cold Quarry"
+			},
+			{
+				"text": "In a tropical forest, an iron serpent was defeated.",
+				"place": "Diaphran Archipelago",
+				"note": "Kill Hydra boss at the temple before final boss in the region at coords C-13"
+			},
+			{
+				"text": "In the forest, a swarm queen, was slain by a hero.",
+				"place": "Lanber Forest",
+				"note": "Kill Blooded Samgerish at M-8"
+			},
+			{
+				"text": "Fire raged within the sturdy walls. But the hero quelled the riot.",
+				"place": "Fort Krigg"
+			},
+			{
+				"text": "An immortal prevented an explosion, killing all serpents one by one.",
+				"place": "Taron Power Station"
+			},
+			{
+				"text": "The ground is on fire, The forest ablaze a fiery enemy was killed here.",
+				"place": "Usuni valley",
+				"note": "Kill Magno at coords K-9"
+			},
+			{
+				"text": "A small town was occupied by serpents, but a god killed the rider.",
+				"place": "Town in Veines",
+				"note": "Kill Crespion Rider Gorgonide boss at coords F-7"
+			},
+			{
+				"text": "A wrecker of titans defeats a cunning puppeteer.",
+				"place": "Factory 501"
+			},
+			{
+				"text": "A threat was hidden underground, but a hero defeated the priestess.",
+				"place": "Mantide Caves"
+			},
+			{
+				"text": "A beacon of hope shone for us and the creeping enemy was defeated.",
+				"place": "Avesten Tower"
+			},
+			{
+				"text": "A mage of death was defeated in a place with an omen in the sky.",
+				"place": "Roqul Valley",
+				"note": "Kill mage boss at coords I-7"
+			},
+			{
+				"text": "Among crystals and stones, a steel serpent was slain",
+				"place": "Thandi Drilling Station"
+			},
+			{
+				"text": "After falling among floating ruins, an iron enemy turn to scrap.",
+				"place": "Saiban Archipelago",
+				"note": "Scan the 3 fragments and complete the mission"
+			},
+			{
+				"text": "A dark mage was slain there and the iron riot was quelled.",
+				"place": "Factory 501"
+			},
+			{
+				"text": "An experiment went wrong, but the immortal enemy was defeated",
+				"place": "Tau Experimental Station"
+			},
+			{
+				"text": "Water attacked the people but the sea villain was defeated",
+				"place": "Port Naori"
+			},
+			{
+				"text": "A hero headed underground to find the light and score a victory.",
+				"place": "Borru Catacombs"
+			},
+			{
+				"text": "An Imp was protecting the gates in the ruins, but it failed to protect its life.",
+				"place": "Eskenian Peninsula",
+				"note": "Imp boss Dem’Sur at coords J-16"
+			},
+			{
+				"text": "A god conquered fire and water, imprisoning them once again.",
+				"place": "Syblian Highlands"
+			},
+			{
+				"text": "In the old temple surrounded by flowers, the mycelium king turned to ash.",
+				"place": "Alakur Island"
+			},
+			{
+				"text": "A queen of cocoons and evil met her end in a small town.",
+				"place": "Kyris"
+			},
+			{
+				"text": "Fragments of land in the sky, had a cache hidden somewhere.",
+				"place": "Isola Digs",
+				"note": "Open a chest at square J-6"
+			},
+			{
+				"text": "The moon bug was terribly angry, but it did not escape vengeance.",
+				"place": "Thea",
+				"note": "Kill enraged hellixer"
+			},
+			{
+				"text": "After falling among floating ruins, an iron enemy turned to scrap.",
+				"place": "Saiban Archipelago"
+			},
+			{
+				"text": "In the sky, among the ruins, an elemental titan was slain.",
+				"place": "Syblian Heights",
+				"note": "Kill water elemental"
+			},
+			{
+				"text": "A hero saved a farmer, from hords of death",
+				"place": "Aristels Farm"
+			},
+			{
+				"great": true,
+				"text": "A hero arrived into distant world, revealing themselves to be a deity.",
+				"place": "Terra",
+				"note": "Going god on Terra (with flower, not sure about faith one)"
+			},
+			{
+				"great": true,
+				"text": "In a remote temple surrounded by snow, an enemy was killed with a cannon shot.",
+				"place": "Darlek",
+				"note": "Get the 6 energy packs along the mission to energize the cannons. Use those cannons at any part of the map, and you will get the reward immediately (you have to be nongod to use them)"
+			},
+			{
+				"great": true,
+				"pvp": true,
+				"text": "An immortal met their death, shot by a cannon in the arena.",
+				"place": "Alcedon Facility",
+				"note": "In hit and kill any player with the mortar cannon."
+			},
+			{
+				"great": true,
+				"text": "A loud clash of swords and the great serpent fell.",
+				"place": "Antean Wasteland",
+				"note": "Kill Eternis with paladin using god form."
+			},
+			{
+				"great": true,
+				"text": "The triumphant of great power, happened five times in a fight.",
+				"place": "",
+				"note": "In god form, use 5 different divine ultimate abilities in a single boss fight, switching among defense, support, melee, ranged and magic classes."
+			},
+			{
+				"great": true,
+				"text": "A mage was slain where darkness and eternal snow reign.",
+				"place": "Donholk Glacier",
+				"note": "Execute the first dagger."
+			},
+			{
+				"great": true,
+				"text": "A hero in divine form fought off an attack on the moon",
+				"place": "Thea",
+				"note": "Defend tanks while using god form."
+			},
+			{
+				"great": true,
+				"text": "A quintet entered a house of prayers and defeated the terror from the depths.",
+				"place": "Mare Sacro Monastery",
+				"note": "Kill first boss Kraken."
+			},
+			{
+				"great": true,
+				"text": "A god cleared the way to the sanctuary, helping a mortal among the rocks.",
+				"place": "Thetin Rift",
+				"note": "Rescue a survivor in god form."
+			},
+			{
+				"great": true,
+				"text": "The divine staff granted powers, and the mage of death lost the duel.",
+				"place": "Lending Hand",
+				"note": "Lending Hand boss at I-9 with Metarchus divine weapon (Hespilon last boss works too)"
+			},
+			{
+				"great": true,
+				"pvp": true,
+				"text": "A flag was captured in battle, but it returned in the right hands.",
+				"place": "Massive Battle"
+			},
+			{
+				"great": true,
+				"text": "In the fortress of ice, a Crespion was slain by an iron thunderstorm.",
+				"place": "Darlek",
+				"note": "Kill a Crespion while in a 5 player non god group."
+			},
+			{
+				"great": true,
+				"text": "Among the hills, a giant vird was slain by a divine weapon.",
+				"place": "Darnic Village",
+				"note": "Kill last boss with divine weapon Ianna's sword"
+			},
+			{
+				"great": true,
+				"text": "In an iron house, the mushroom king was slain by a weapon of gods.",
+				"place": "Medea",
+				"note": "Kill the final boss with the divine weapon Ianna's sword."
+			},
+			{
+				"great": true,
+				"text": "In the sky, among the ruins, an elemental titan was slain.",
+				"place": "Isola Digs",
+				"note": "Kill Air Elemental at J-10"
+			},
+			{
+				"great": true,
+				"text": "The father blessed the child, and the evil was no more.",
+				"place": "Lanber Catacombs",
+				"note": "Complete dungeon without the altar buff running out."
+			},
+			{
+				"great": true,
+				"text": "No divine powers were used when a flower was slain in a warm shore.",
+				"place": "Targo Island",
+				"note": "Kill the Diocinia wandering boss without using god form."
+			},
+			{
+				"text": "Where the light of love shone brightly, the god of sea fell in battle.",
+				"place": "Thais Temple"
+			},
+			{
+				"text": "In battle, Pegasus killed a machine of sickles and saws.",
+				"place": "Town in Veines",
+				"note": "Kill crespion at any location while mounted on the pegasus mount (example: G-3)"
+			},
+			{
+				"text": "The sandworm lies in the dust killed during a storm.",
+				"place": "Antean Wasteland",
+				"note": "Kill normal worm during sandstorm."
+			},
+			{
+				"great": true,
+				"text": "The mighty god shone in the dark, banishing death from ancient halls.",
+				"place": "Hespilon Temple",
+				"note": "Complete in god form, alone."
+			},
+			{
+				"great": true,
+				"text": "Without any divine powers, a quintet killed an iron snake.",
+				"place": "Tarlen Aquifer",
+				"note": "Kill the second boss with a group of 5 without god form."
+			},
+			{
+				"great": true,
+				"pvp": true,
+				"text": "The roar of arena is in your ears, an immortal warrior was killed.",
+				"note": "PvP - first kill."
+			},
+			{
+				"great": true,
+				"pvp": true,
+				"text": "An Immortal fell. Magic trees.",
+				"place": "Hostile Territory",
+				"note": "Die in pvp fight."
+			}
+		]
+	}
+});
+
+export default app;
